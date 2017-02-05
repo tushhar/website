@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #ffffff;
 }
 .text-primary {
   color: #fed136;
@@ -284,6 +284,7 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: white;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -555,6 +556,19 @@ aside.clients img {
 }
 .container {
    background-color: #222222;
+}
+section#services {
+  background-color: #ffffff;
+  background-image:linear-gradient( rgba(255,255,255,.5), rgba(0,0,0,.5) ), url('../img/Creative-Office.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#about {
+  background-color: #222222;
+  background-image:linear-gradient( rgba(0,0,0,.5), rgba(255,255,255,.5) ), url('../img/CreativeServices.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 section#contact {
   background-color: #222222;
